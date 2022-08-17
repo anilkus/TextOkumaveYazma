@@ -1,0 +1,25 @@
+with open("dosyayolu","r",encoding="utf-8") as Metin:
+    
+   #bu = Metin.read(10)
+   #readline,readlines
+   #print(bu)
+   '''bu=Metin.readlines()
+   bu[0]
+   print(bu[1])'''
+   i = 0;
+   for line in Metin:
+       print("Satır", str(i), ": ", line)
+       i = i + 1
+       
+#Metin yazma       
+Liste=["AHMET","ela","Kuş","5","Toros Üniversitesi"]
+
+with open ("DosyaYolu","w",encoding="utf-8") as Text:
+    
+    for satir in Liste:
+        Text.write(satir)
+        print(ozet)       
+       
+       
+       
+       
