@@ -2,7 +2,7 @@
 """
 Created on Tue Aug 16 17:46:40 2022
 
-@author: LENOVO
+@author: AnilKus
 """
 
 with open ('C:/Users/LENOVO/Desktop/text.txt',encoding='utf8') as f:
